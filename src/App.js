@@ -2,6 +2,7 @@
 import './App.css';
 import AssignmentMarks from './Components/AssignmentMarks/AssignmentMarks';
 import NavBar from './Components/NavBar/NavBar';
+import PhoneBar from './Components/PhoneBar/PhoneBar';
 import Pricing from './Components/Pricing/Pricing';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <p>This is normal paragraph text.</p>
       <Pricing></Pricing>
       <AssignmentMarks></AssignmentMarks>
+      <PhoneBar></PhoneBar>
     </div>
   );
 }
